@@ -59,13 +59,8 @@ for i in range(10):
             new_cluster2.append(BD[data])
             predictions.append(1)
 
-    #print(cluster2)
-    #print(f"1. elaman: {BD[0]} ")
-    #print(new_centroid2)
     print(len(new_cluster1))
     print(len(new_cluster2))
-
-       
     #print(predictions)
 
     sum = 0
@@ -74,5 +69,3 @@ for i in range(10):
             sum += 1
         
     print(f"Accuracy: %{sum/569 * 100}")
-
-    #centroids = []
