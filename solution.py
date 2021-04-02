@@ -65,14 +65,7 @@ for i in range(10):
     print(len(new_cluster1))
     print(len(new_cluster2))
 
-
-
-    # for i in range(569):
-    #     if BD[i] in new_cluster1:
-    #         predictions.append('0')
-    #     else:
-    #         predictions.append('1')
-    #print(BD[0])        
+       
     #print(predictions)
 
     sum = 0
